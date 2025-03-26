@@ -1,3 +1,7 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
 #navbar{
     font-weight: bold;
     font-size: larger;
@@ -26,23 +30,16 @@ button{
 
 }
 
-.input-with-icon {
-    background-image: url('image/person-icon.jpeg'); 
+.input-with-icon {   
     background-position: 10px center;
     background-repeat: no-repeat;
     background-size: 30px;
     padding-left: 40px; 
-  }
-.input-with-icon2 {
-    background-image: url('image/key-icon.jpeg'); 
-    background-position: 10px center;
-    background-repeat: no-repeat;
-    background-size: 30px;
-    padding-left: 40px; 
-}
+    border : 2px solid rgb(173, 168, 168);
+  } 
 
 #form{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(245, 243, 243);
 }
 
 a{
@@ -58,4 +55,4 @@ a:hover{
     margin-top : 150px;
     height: 200px;
 }
-
+ 
